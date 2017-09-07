@@ -12,7 +12,7 @@ To add JMS test queue to OpenMQ managed by Glassfish 3.1.2.2:
 ```sh
 asadmin create-jms-resource --restype javax.jms.Queue --property Name=TestQueue jms/TestQueue
 ```
-Also you can define JMS connection factory and JMS test queue resources by glassfish-resources.xml, but you can't share this resources with another apps):
+Also you can define JMS connection factory and JMS test queue resources by glassfish-resources.xml, but you can't share this resources with another apps:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE resources PUBLIC "-//GlassFish.org//DTD GlassFish Application Server 3.1 Resource Definitions//EN" "http://glassfish.org/dtds/glassfish-resources_1_5.dtd">
